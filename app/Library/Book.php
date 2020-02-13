@@ -14,9 +14,9 @@ class Book
         $this->pages = $pages;
     }
 
-    public function read(int $pagesRead) : int
+    public function read(int $pagesRead)
     {
-        return $this->onPage += $pagesRead;
+        $this->onPage += $pagesRead;
     }
 
     public function currentPage() : int
