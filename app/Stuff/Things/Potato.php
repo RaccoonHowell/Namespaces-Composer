@@ -9,7 +9,6 @@ class Potato
     public function water() : Potato
     {
         $this->watered += 1;
-
         return $this;
     }
 
